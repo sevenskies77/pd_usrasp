@@ -318,7 +318,7 @@ ElseIf InStr(UCase(S_ClassDoc),UCase(RTI_PAYMENT_ORDER)) > 0 Then
 'rti_contract
 ElseIf InStr(UCase(S_ClassDoc),UCase(RTI_CONTRACT)) > 0 Then
 'Порядок следования полей при просмотре
-    CurrentDocFieldOrder = "DocID, DocIDParent, Author, UserFieldText1, UserFieldText2, UserFieldText3, UserFieldText4, UserFieldMoney1, UserFieldText5, ListToReconcile, NameAproval, ListToView, Department,  PartnerName, Content"
+    CurrentDocFieldOrder = "DocID, DocIDParent, Author, UserFieldText1, UserFieldText2, UserFieldText3, UserFieldMoney1, UserFieldText4, UserFieldText5, ListToReconcile, NameAproval, ListToView, Department,  PartnerName, Content"
   'VAR_DocTemplateFilename = "ReconciliationListRUSContractsHQ.doc"
 'rti_contract
 'rti_bsap
