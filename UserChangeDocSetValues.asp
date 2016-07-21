@@ -3887,7 +3887,7 @@ ElseIf InStr(UCase(Session("CurrentClassDoc")), UCase(RTI_CONTRACT)) = 1 Then
  
 
 'ph - 20120216 - start
-  CurrentDocFieldOrder = "DocID, DocIDParent, Author, PartnerName, UserFieldText1, UserFieldText2, UserFieldText3, ListToReconcile, NameAproval, Content, UserFieldMoney1, UserFieldText4, UserFieldText5, ListToView, SecurityLevel, Department"
+  CurrentDocFieldOrder = "DocID, DocIDParent, Author, PartnerName, UserFieldText1, UserFieldText2, UserFieldText3, ListToReconcile, NameAproval, Content, UserFieldText4, UserFieldText5, UserFieldMoney1, ListToView, SecurityLevel, Department"
 'ph - 20120216 - end
   CurrentDocRequiredFields = "PartnerName, UserFieldText2,NameAproval,Content"
   'Ph - 20080921 - Убрать иконку справочников у полей
